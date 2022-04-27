@@ -17,8 +17,8 @@ $HOME/.HandyHost/aktData/bin/akash provider run \
 --bid-price-strategy scale \
 --bid-price-cpu-scale $3 \
 --cluster-node-port-quantity 1000 \
---bid-timeout 8h0m0s \
+--bid-timeout 0h15m0s \
 --minimum-balance 100000 \
---balance-check-period 8h0m0s \
+--balance-check-period 4h0m0s \
 --withdrawal-period 8h0m0s \
 --bid-deposit 5000000uakt
